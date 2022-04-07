@@ -1,0 +1,34 @@
+// SCSS tiene una sintaxis parecida a css en cuanto a llaves y puntos y coma
+
+// En la extension SASS si se le sacan las llaves y los puntos y coma 
+
+// Variables
+$color-fondo: black;
+$color-letra: white;
+$size-contenedor: 500px;
+$size-letra: 12px;
+$margin: 10px;
+
+header {
+    background-color: $color-fondo;
+    height: 10vh;
+    color: $color-letra;
+    margin: $margin;
+    h1 {
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+    }
+    .nav {
+        margin: 10vh 0;
+        height: 10vh;
+        ul {
+            display: flex;
+            li {
+                background-color: red;
+                color: black;
+            }
+        }
+    }
+}
+
+ 
